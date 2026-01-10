@@ -25,3 +25,11 @@
 - Logical operators
 - loops
 - HOMEWORK - Write a java code to convert decimal to binary
+
+## Date 10.01.2026
+### Day 3
+- pattern printing
+- Methods / Functions
+- recursion
+- quick sort, merge sort, linked list.
+- Test
