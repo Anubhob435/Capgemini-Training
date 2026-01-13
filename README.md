@@ -27,9 +27,18 @@
 - HOMEWORK - Write a java code to convert decimal to binary
 
 ## Date 10.01.2026
-### Day 3
+### Day 3 (Saturday)
 - pattern printing
 - Methods / Functions
 - recursion
 - quick sort, merge sort, linked list.
 - Test
+
+## Date 13.01.2026
+### Day 4 (Tuesday)
+- Methods and Functions complete
+- recursion
+- pattern printing
+- concep of object, methods and classes
+- Access Specifiers, static non - static methods
+- basic syllabus given
