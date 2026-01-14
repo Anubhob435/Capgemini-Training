@@ -42,3 +42,10 @@
 - concep of object, methods and classes
 - Access Specifiers, static non - static methods
 - basic syllabus given
+
+## Date 14.01.2026
+### Day 5 (Wednesday)
+- constructor
+- Arrays, 2D arrays
+- classes
+- objects

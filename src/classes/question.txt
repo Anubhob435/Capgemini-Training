@@ -1,0 +1,13 @@
+Develop a function that processes a stream of log data from AWS CloudWatch,
+represented as a 20 array of strings called Logs. 
+Each inner list logs contains log information, including the year, date, status, and message.
+
+The function should return all logs with ERROR or CRITICAL status sorted by their time of arrival 
+and if two logs arrive at the same time return them in the order which appears first in logs. 
+The log date is in DD-MM-YYYY format, and the log time of day is in HH:MM format.
+
+Example
+
+Suppose logs [["01-01-2023", "14:00", "ERROR", "failed"], ["01-01-2023", "15:00", "INFO", "established"], ["01-01-2023", "01:30", "ERROR", "failed"]].
+
+The answer is [["01-01-2023", "01:30", "ERROR", "failed"], ["01-01-2023", "14:00", "ERROR", "failed"]]. This is because the input contains two log entries with ERROR status, and they are sorted in ascending order of when they arrived
