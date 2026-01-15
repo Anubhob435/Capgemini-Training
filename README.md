@@ -19,7 +19,7 @@
 - operator precedence at https://www.cs.bilkent.edu.tr/~guvenir/courses/CS101/op_precedence.html
 
 ## Date 09.01.2026
-### Day 2
+### Day 2 (Friday)
 - ternary operators
 - increment decrement operator
 - Logical operators
@@ -49,3 +49,12 @@
 - Arrays, 2D arrays
 - classes
 - objects
+
+## Date 15.01.2026
+### Day 6 (Thursday)
+- Advance Array (sum of array)
+- Strings
+- regex
+- String buffer
+- String builder
+- practice problems

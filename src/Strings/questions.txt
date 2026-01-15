@@ -1,0 +1,227 @@
+===============================================================================
+                        STRING PROGRAMMING QUESTIONS
+===============================================================================
+
+QUESTION 1: Check if a String is an Anagram
+-------------------------------------------------------------------------------
+Write a program to check given String is an Anagram or not and return a suitable message.
+
+
+Definition:
+    An anagram is a word or phrase formed by rearranging the letters of another word or phrase, 
+    typically using all the original letters exactly once. For example, "listen" and "silent" 
+    are anagrams of each other because they use the same letters.
+
+Algorithm:
+    1. First, check if both lengths of the String same or not. If same, you need to write the 
+       implementation the program otherwise say directly "Not an Anagram".
+    2. Compare the two Strings of every character. If they match for every character, 
+       the strings are anagrams.
+
+Example:
+    Strings: "listen" and "silent"
+    
+    If you observe the two Strings, what characters are present in the s1 String same 
+    characters are present in the s2 String. So, these two are Anagrams.
+
+
+===============================================================================
+QUESTION 2: Find Occurrence of Each Character
+-------------------------------------------------------------------------------
+Write a program to find Occurrence of each character how many times present in given String 
+and display the output.
+
+Example:
+    Input:
+        String s = "Hello";
+    
+    Output:
+        H = 1  -----> H is present one time in given String.
+        e = 1  -----> e is present one time in given String.
+        l = 2  -----> l is present 2 times in given String.
+        o = 1  -----> o is present one time in given String.
+
+
+===============================================================================
+QUESTION 3: Reverse Each Word in a String
+-------------------------------------------------------------------------------
+Write a program to Reverse of Given String in Each word and return the String.
+
+Example:
+    Input:
+        "java is an oop lang"
+    
+    Output:
+        "avaj si na poo gnal"
+
+
+===============================================================================
+QUESTION 4: Check if String is Palindrome
+-------------------------------------------------------------------------------
+Write a program to check Given String is Palindrome or not.
+
+Explanation:
+    Reverse the String. After the Reverse Given String, check the reversed string and 
+    user Given String. Both are the same or not based on the result return a suitable message.
+
+Example:
+    Input:
+        String str = "racecar";
+    
+    After Reverse:
+        racecar
+    
+    Compare:
+        Compare the user-given String and the Reversed String both are the same or not. 
+        Both are the same, print "Palindrome" otherwise print "Not a Palindrome".
+    
+    Output:
+        The Given String is Palindrome
+
+
+
+===============================================================================
+QUESTION 5: Remove a Particular Character
+-------------------------------------------------------------------------------
+Write a program to Remove a Particular user entered Character in the Given String.
+
+Example:
+    Input:
+        String s = "Hello";
+        char ch = 'l';
+    
+    Output:
+        Heo
+
+
+===============================================================================
+QUESTION 6: Remove Duplicate Characters
+-------------------------------------------------------------------------------
+Write a program to Remove Duplicates characters in Given String.
+
+Example:
+    Input:
+        String str = "aabaabbbcccd";
+    
+    Output:
+        abcd
+
+
+
+===============================================================================
+QUESTION 7: StringBuilder/StringBuffer Operations
+-------------------------------------------------------------------------------
+Practice StringBuilder operations:
+
+    StringBuilder sb = new StringBuilder();
+    //StringBuffer sb = new StringBuffer();
+    
+    sb.append("abcd");
+    System.out.println(sb.reverse());
+    
+    sb.append("1234hello");
+    System.out.println(sb);
+    
+    sb.delete(3, 6);
+    System.out.println(sb);
+    
+    sb.insert(2, "student");
+    System.out.println(sb);
+
+
+
+===============================================================================
+QUESTION 8: Remove Adjacent Duplicate Characters
+-------------------------------------------------------------------------------
+Write a program to Remove Adjacent Duplicate characters In a Given String and return the 
+final string after all such duplicate removals have been made. It can be proven that the 
+answer is unique.
+
+Example 1:
+    Input:
+        s = "abbacd"
+    
+    Output:
+        "cd"
+    
+    Explanation:
+        In "abbacd" we could remove "bb" since the letters are adjacent and equal, 
+        and this is the only possible move. The result of this move is that the string 
+        is "aacd", of which only "aa" is possible, so the final string is "cd".
+
+Example 2:
+    Input:
+        s = "accddaf"
+    
+    Steps:
+        step1: addaf
+        step2: aaf
+        step3: f
+    
+    Output:
+        "f"
+
+
+===============================================================================
+QUESTION 9: Print Unique Words
+-------------------------------------------------------------------------------
+Write a program to print Unique Words in a Given String.
+
+Example:
+    Input:
+        "hello world hello java world"
+    
+    Output:
+        Unique words in the given string:
+        java
+
+
+
+===============================================================================
+QUESTION 10: Move Hyphens to Front
+-------------------------------------------------------------------------------
+The method accepts a string "str" that contains alphabets and hyphens (-). Implement the 
+logic to move all hyphens(-) in the string to the front of the given string.
+
+NOTE:
+    Return null if str is null.
+
+Example:
+    Input:
+        str = "Move-Hyphens-to-Front"
+    
+    Output:
+        "---MoveHyphenstoFront"
+    
+    Explanation:
+        The string "Move-Hyphens-to-Front" has 3 hyphens (-), which are moved to the 
+        front of the string, thus output is "---MoveHyphenstoFront"
+
+Sample Input:
+    str = "String-Compare"
+
+Sample Output:
+    "-StringCompare"
+
+===============================================================================
+QUESTION 11: Interchange Matrix Diagonals
+-------------------------------------------------------------------------------
+Given a square matrix of order n*n, you have to interchange the elements of both diagonals.
+
+Explanation:
+    Idea behind interchanging diagonals of a square matrix is simple. Iterate from 0 to n-1 
+    and for each iteration you have to swap a[i][i] and a[i][n-i-1].
+
+Example:
+    Input:
+        matrix[][] = {1, 2, 3,
+                      4, 5, 6,
+                      7, 8, 9}
+    
+    Output:
+        matrix[][] = {3, 2, 1,
+                      4, 5, 6,
+                      9, 8, 7}
+
+
+===============================================================================
