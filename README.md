@@ -58,3 +58,13 @@
 - String buffer
 - String builder
 - practice problems
+
+
+## Date 16.01.2026
+### Day 7 (Friday)
+- Objects and Classes Advanced
+- Encapsulation
+- Scanner
+- SubArrays
+- Practice Questions(sliding window, two pointers)
+- connect objects
