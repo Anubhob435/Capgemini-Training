@@ -7,7 +7,7 @@ public class Demo {
 	//class Initializer not used 
 	// Constructor ---> object 
 	private Demo(){
-		-
+		
 	}
 	private int a;
 	// write value , read the value

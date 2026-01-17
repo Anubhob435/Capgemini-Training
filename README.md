@@ -68,3 +68,11 @@
 - SubArrays
 - Practice Questions(sliding window, two pointers)
 - connect objects
+
+## Date 17.01.2026
+### Day 8 (Saturday)
+- Association
+    - Aggregation
+    - compostion
+- Inheritance
+- Weekly assessment
