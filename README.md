@@ -45,7 +45,7 @@
 
 ## Date 14.01.2026
 ### Day 5 (Wednesday)
-- constructor
+- constructors (default, parameterized, non parameterized)
 - Arrays, 2D arrays
 - classes
 - objects
@@ -76,3 +76,8 @@
     - compostion
 - Inheritance
 - Weekly assessment
+
+## Date 19.01.2026
+### Day 9 (Monday)
+- Revision of all previous topics
+- Inheritance Advanced, types of Inheritance
