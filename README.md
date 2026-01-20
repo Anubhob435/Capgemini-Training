@@ -81,3 +81,8 @@
 ### Day 9 (Monday)
 - Revision of all previous topics
 - Inheritance Advanced, types of Inheritance
+
+## Date 20.01.2026
+### Day 10 (Tuesday)
+- Upcasting Downcasting
+- polymorphism
