@@ -92,3 +92,9 @@
 - Abstract Classes
 - Interface
 - Exception Handelling
+
+### 22.01.2026
+## Day 12 (Thursday)
+- Multiple types of error handelling
+- Wrapper classes
+- collections

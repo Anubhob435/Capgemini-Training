@@ -1,0 +1,125 @@
+Collection Framework
+
+1. Iterable (i)
+2. Collection (1)
+3. List (i)
+4. Set (1)
+5. Sorted Set (1)
+6. Navigable Set (i)
+7.Queue(i)
+8. May()
+9. Soud Map(l)
+10. Navigable Map(1)
+
+Collection specific methods 
+
+1) Method: boolean add(E element)
+Purpose :
+Adds an element to the collection. Returns true if the collection changed (i.e., the element was added).
+
+2) Method: boolean addAll(Collection<? extends E> c)
+Purpose :
+Adds all elements from another collection to this collection. Returns true if elements were added.
+
+3)Method: void clear()
+Purpose :
+Removes all elements from the collection, leaving it empty.
+
+4) Method: boolean contains(Object o)
+Purpose :
+Checks if the collection contains the specified element. Returns true if found.
+
+5) Method: boolean containsAll(Collection<?> c)
+Purpose :
+Checks if the collection contains all elements from another collection. Returns true if all are found.
+
+6) Method: boolean isEmpty()
+Purpose :
+Checks if the collection has no elements. Returns true if it is empty.
+
+7) Method: Iterator<E> iterator()
+Purpose :
+Provides a way to loop through (or iterate over) the elements of the collection.
+
+8) Method: boolean remove(Object o)
+Purpose :
+Removes a specific element from the collection. Returns true if it was successfully removed.
+
+9) Method: boolean removeAll(Collection<?> c)
+Purpose :
+Removes all elements that are also present in another collection. Returns true if any elements were removed.
+
+10 )Method: boolean retainAll(Collection<?> c)
+Purpose :
+Keeps only the elements that are also present in another collection and removes the rest. Returns true if changes were made.
+
+11) Method: int size()
+Purpose :
+Returns the number of elements in the collection.
+
+12) Method: Object[] toArray()
+Purpose :
+Converts the collection into an array of Object type.
+
+13) Method: <T> T[] toArray(T[] a)
+Purpose :
+Converts the collection into an array of a specific type.
+
+14) Method: boolean equals(Object o)
+Purpose :
+Checks if this collection is equal to another object.
+
+15) Method: int hashCode()
+Purpose :
+Returns a hash code for the collection, used in hashing-based data structures like HashSet.
+
+=============================================STREAM API RELATED (LATER)=====================================================
+16) Method: Spliterator<E> spliterator()
+Purpose (Simple Terms):
+Provides a way to split the elements for parallel processing.
+
+17) Method: Stream<E> stream()
+Purpose (Simple Terms):
+Returns a stream (sequence of elements) to perform operations like filtering and mapping.
+
+18) Method: Stream<E> parallelStream()
+Purpose (Simple Terms):
+Returns a parallel stream for concurrent operations.
+List Specific methods 
+Java List Interface Methods
+
+1) Method: void add(int index, E element)
+Purpose (Simple Terms):
+Adds an element at a specific position (index) in the list.
+
+2) Method: E get(int index)
+Purpose (Simple Terms):
+Retrieves the element at the specified index in the list.
+
+3) Method: E set(int index, E element)
+Purpose (Simple Terms):
+Replaces the element at the specified index with a new element.
+
+4) Method: E remove(int index)
+Purpose (Simple Terms):
+Removes the element at the specified index from the list.
+
+5) Method: int indexOf(Object o)
+Purpose (Simple Terms):
+Returns the index of the first occurrence of the specified element, or -1 if not found.
+
+6) Method: int lastIndexOf(Object o)
+Purpose (Simple Terms):
+Returns the index of the last occurrence of the specified element, or -1 if not found.
+
+7) Method: ListIterator<E> listIterator()
+Purpose (Simple Terms):
+Returns a list iterator to traverse through the elements of the list.
+
+8) Method: ListIterator<E> listIterator(int index)
+Purpose (Simple Terms):
+Returns a list iterator starting from the specified index.
+
+9) Method: List<E> subList(int fromIndex, int toIndex)
+Purpose (Simple Terms):
+Returns a portion of the list between the specified indexes (from fromIndex to toIndex).
