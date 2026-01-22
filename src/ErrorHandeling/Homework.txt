@@ -1,0 +1,18 @@
+1) Can we call static method from static block (In how many ways)
+2) Can we access static variable from a program created static method (in how many ways)
+3)can we initialized static variable from a programmer created static method (in how many ways)
+4)Can we initialize static variable from one class to another class(In how many ways)
+5) Can we perform method overloading using static method
+6)Can we perform recursive method using static block
+7) can we perform return type using static method
+8) Can we create an object from one class to another class
+9) can we access a non -static variable from non static block(How many ways)
+10) Can we initialize a non static variable from non static block(How many ways)
+11) After declaring a local variable inside non-static block how to access a non static variable
+12) Can we access a non static method form no-argument constructor, paramaterized cons & non-static block
+13) Can we access access a non static variable from a non static
+method
+14)Can we initialize a non static var from a paramaterized non static method
+15) Can we perform return type with the help of non static method
+16) Can we perform recursion with the non static method
+17) In how many ways we can access a non static variable and non static method from static method and static block

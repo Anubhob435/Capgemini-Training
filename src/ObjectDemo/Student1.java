@@ -1,7 +1,7 @@
 package src.ObjectDemo;
 
 public class Student1 {
-	
+	/*
 	String name;
 	String email;
 	String phone;
@@ -35,5 +35,5 @@ public class Student1 {
 		Employee1 e1 = new Employee1("Rahul", "rohit@gmail.com1", "12345");
 		System.out.println(s1.equals(s2));
 		System.out.println(s1.equals(e1));
-	}
+	}*/
 }

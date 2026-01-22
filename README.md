@@ -86,3 +86,9 @@
 ### Day 10 (Tuesday)
 - Upcasting Downcasting
 - polymorphism
+
+### 21.01.2026
+## Day 11 (Wednesday)
+- Abstract Classes
+- Interface
+- Exception Handelling
