@@ -98,3 +98,11 @@
 - Multiple types of error handelling
 - Wrapper classes
 - collections
+
+### 24.01.2026
+## Day 13 (Saturday)
+- More on collections
+- Linked List
+- Stack
+- Hashmap, hashing
+- Weekly Test 4x codes, 60 mcq

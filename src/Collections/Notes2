@@ -1,0 +1,16 @@
+Linked List Specific methods (these methods are not declared in Collection or List interface), to use this methods we cannot upcast
+This is until (java 21 v) , after this they have added the these LinkedList specific method in 'List (interface)' , after 21 v we can upcast and use
+
+addFirst(E e)	void	Inserts element at the beginning (head).
+addLast(E e)		void	Inserts element at the end (tail).
+getFirst()		E	Returns the first element (head) without removing.
+getLast()		E	Returns the last element (tail) without removing.
+removeFirst()		E	Removes and returns the first element.
+removeLast()		E	Removes and returns the last element.
+offerFirst(E e)		boolean	Inserts element at front; returns true if successful.
+offerLast(E e)		boolean	Inserts element at end; returns true if successful.
+pollFirst()		E	Retrieves and removes first element, or returns null if empty.
+pollLast()		E	Retrieves and removes last element, or returns null if empty.
+peekFirst()		E	Retrieves but does not remove first element, or returns null if empty.
+peekLast()		E	Retrieves but does not remove last element, or returns null if empty.
+descendingIterator()	Iterator<E>	Returns an iterator over elements in reverse order.
