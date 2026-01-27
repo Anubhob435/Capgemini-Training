@@ -106,3 +106,13 @@
 - Stack
 - Hashmap, hashing
 - Weekly Test 4x codes, 60 mcq
+
+### 27.01.2026
+## Day 14 (Tuesday)
+- code on ArrayList
+- Hash Set
+- Linked Hash Set
+- Tree Set
+- some overriding problems
+
+## Session 1 complete 
