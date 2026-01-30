@@ -118,5 +118,13 @@
 ## Session 1 complete 
 
 ## 28.01.2026
-### Day 15n(wednesday)
+### Day 15 (wednesday)
 - DSA started with intro
+
+## 29.01.2026
+### Day 16 (Thursday)
+- Communication and Softskills
+
+## 30.01.2026
+### Day 17 (Thursday)
+- DSA arrays and strings
