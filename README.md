@@ -132,3 +132,7 @@
 ## 31.01.2026
 ### Day 18 (Saturday)
 - Revision of collections
+- queue
+- stacks
+- vectors
+- weekly test (2 problems)
