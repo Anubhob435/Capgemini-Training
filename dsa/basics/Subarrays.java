@@ -1,4 +1,5 @@
-package dsa;
+package dsa.basics;
+
 import java.util.*;
 
 public class Subarrays {

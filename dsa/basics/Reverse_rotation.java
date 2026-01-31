@@ -1,4 +1,4 @@
-package dsa;
+package dsa.basics;
 
 public class Reverse_rotation {
     public static void main(String[] args) {

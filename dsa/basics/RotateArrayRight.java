@@ -1,4 +1,4 @@
-package dsa;
+package dsa.basics;
 
 public class RotateArrayRight {
 	public static void main(String[] args) {

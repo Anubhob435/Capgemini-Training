@@ -126,5 +126,9 @@
 - Communication and Softskills
 
 ## 30.01.2026
-### Day 17 (Thursday)
+### Day 17 (Friday)
 - DSA arrays and strings
+
+## 31.01.2026
+### Day 18 (Saturday)
+- Revision of collections
