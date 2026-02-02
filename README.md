@@ -136,3 +136,8 @@
 - stacks
 - vectors
 - weekly test (2 problems)
+
+## 02.01.2026
+### Day 19 (Monday)
+- searching techniques
+- merge sort, quick sort
