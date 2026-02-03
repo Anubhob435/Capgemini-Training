@@ -137,7 +137,12 @@
 - vectors
 - weekly test (2 problems)
 
-## 02.01.2026
+## 02.02.2026
 ### Day 19 (Monday)
 - searching techniques
 - merge sort, quick sort
+
+## 03.02.2026
+### Day 20 (Tuesday)
+- More porblem solving
+- Started Dynamic programming
