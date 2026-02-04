@@ -146,3 +146,8 @@
 ### Day 20 (Tuesday)
 - More porblem solving
 - Started Dynamic programming
+
+## 04.02.2026
+### Day 21 (Wednesday)
+- More problems on DSA
+- knapsack problem, greedy algo
