@@ -1,0 +1,102 @@
+COMPREHENSIVE QUESTIONS FROM ALL 33 WHASTSAPP IMAGES
+
+1. DIGITAL WALLET SYSTEM
+- Design three classes: TransactionException, DigitalWallet, DigitalWalletTransaction
+- TransactionException class:
+  * Constructor: TransactionException(String errorMessage, String errorCode)
+  * Method: String getErrorCode()
+- DigitalWallet class:
+  * Constructors: DigitalWallet(String walletId, String userName), DigitalWallet(String walletId, String userName, String userAccessCode)
+  * Methods: getWalletId(), getUserName(), getUserAccessToken(), getWalletBalance(), setWalletBalance()
+- DigitalWalletTransaction class:
+  * Methods: addMoney(DigitalWallet digitalWallet, int amount), payMoney(DigitalWallet digitalWallet, int amount)
+- Error codes and messages:
+  * USER_NOT_AUTHORIZED: "User not authorized" (no access token)
+  * INVALID_AMOUNT: "Amount should be greater than zero"
+  * INSUFFICIENT_BALANCE: "Insufficient balance"
+- Constraints: 1 ≤ numberOfWallets ≤ 100, 1 ≤ numberOfTransactions ≤ 2 × 10³
+
+2. CRICKET AND FOOTBALL TEAMS
+- Design Cricket and Football classes implementing Sport interface
+- Cricket class:
+  * Variable: int[] playerIDs (11 elements set to 1)
+  * Methods: Cricket() constructor, calculateAvgAge(int[] age), retirePlayer(int id), playerTransfer(int fee, int id)
+- Football class: Similar structure to Cricket class
+- Requirements: Print messages for team formation, average age calculation, player retirement, and player transfer
+
+3. BANK ACCOUNT MANAGEMENT SYSTEM
+- Develop system with checking, savings, and credit card accounts
+- AbstractAccount base class with Account interface
+- Concrete classes: CheckingAccount, SavingsAccount, CreditCardAccount
+- BankingSystem class with methods:
+  * createAccount(String accountType, String accountHolder, double creditLimit, double interestRate)
+  * deposit(int accountNumber, double amount)
+  * withdraw(int accountNumber, double amount)
+  * checkBalance(int accountNumber)
+  * makePayment(int cardNumber, double amount)
+  * calculateInterest(int accountNumber)
+- Custom exceptions for error handling
+- Constraints: 1 ≤ n ≤ 100 (input lines)
+
+4. SHAPE INHERITANCE
+- Calculate area and perimeter of rectangle, circle, square using Shape interface
+- Rectangle class: implements Shape, contains length and width
+- Square class: extends Rectangle, sets length and width to side
+- Circle class: implements Shape, contains radius
+- Methods: getArea(), getPerimeter(), toString()
+- Formulas: rectangle (length×width, 2×(length+width)), square (side², 4×side), circle (π×radius², 2×π×radius)
+- Constraints: 1 ≤ length, width, side, radius ≤ 10²
+
+5. TRANSACTION HISTORY API
+- Build API with pagination and filters
+- Features:
+  * Cursor-based pagination for large transaction lists
+  * Filters: Account, Date range, Amount range
+  * Authorization enforcement (users view only their transactions)
+  * Return non-deleted records only (deleted_at IS NULL)
+  * Clear error messages for all failure cases
+- Helper curl scripts provided in curl_scripts/ folder
+
+6. GENERIC DATA TYPES
+- Implement DataType interface with StringDataType and NumericDataType classes
+- StringDataType<T> methods:
+  * addition(T a, T b): "Adding two strings", concatenation result
+  * subtraction/multiplication/division: "Cannot perform this operation on strings"
+  * performAll(T a, T b): Call all methods in order
+- NumericDataType<T> methods:
+  * addition: "Adding 2 generic instances", sum rounded to 2 decimals
+  * subtraction: "Subtracting two generic instances", difference rounded to 2 decimals
+  * multiplication: "Multiplying two generic instances", product rounded to 2 decimals
+  * division: "Dividing two generic instances", quotient rounded to 2 decimals
+  * performAll(T a, T b): Call all methods in order
+- Constraints: numeric data 1 ≤ a,b ≤ 10⁹; strings 1 ≤ length ≤ 100
+
+7. LIBRARY MANAGEMENT SYSTEM
+- Features:
+  * Add Book: title, author, availability (in stock/out of stock)
+  * Borrow Book: with custom exceptions for out-of-stock and max borrowed books
+  * Return Book
+  * View Library Inventory: available and borrowed books
+- Custom exceptions:
+  * OutOfStockException: "Cannot borrow book '<title>' as it is out of stock"
+  * MaxBorrowedBooksException: "Cannot borrow book as you have reached the maximum of <maxBorrowedBooks> borrowed books"
+- Constraints: 1 ≤ n ≤ 100 (input lines)
+
+8. COMPANY IMPLEMENTATION
+- Interface Company with methods: assignSalaries(int[] salaries), averageSalary(), maxSalary(), minSalary()
+- Classes: EngineerFirm and AccountantFirm implementing Company
+- EngineerFirm: initializes income array, assigns salaries, calculates averages/max/min
+- AccountantFirm: similar structure with accountant-specific implementation
+
+9. CUSTOM TESTING FORMAT
+- Input Format For Custom Testing with sample cases
+- Sample Input/Output formats for various problems
+- Helper curl scripts for API testing in curl_scripts/ folder
+- Instructions for authentication, account creation, User APIs, Transaction Creation, balance snapshot endpoint
+
+10. ADDITIONAL DETAILS FROM IMAGES:
+- Digital wallet workflow validation requirements
+- Transaction processing with authorization and validation
+- Error handling with meaningful error messages
+- Code stubs provided for interface validation
+- Test cases and sample inputs/outputs for verification

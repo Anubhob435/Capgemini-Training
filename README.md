@@ -151,3 +151,9 @@
 ### Day 21 (Wednesday)
 - More problems on DSA
 - knapsack problem, greedy algo
+
+## 05.02.2026
+- Fractional knapsack
+- hashing (anagram program)
+- heaps
+- Huffman Algorithim
