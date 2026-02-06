@@ -153,7 +153,13 @@
 - knapsack problem, greedy algo
 
 ## 05.02.2026
+### Day 22 (Thursday)
 - Fractional knapsack
 - hashing (anagram program)
 - heaps
 - Huffman Algorithim
+
+## 06.02.2026
+### Day 23 (Friday)
+- Mock Test
+

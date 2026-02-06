@@ -1,0 +1,16 @@
+Problem Context
+You are designing part of an analytics system to track actions within an application. The system buffers actions and sends them to storage once a specific number (K) is reached.
+Input Data
+You are given a 2D Array of string logs, where every entry has four fields:
+Logs[i][0]: Date (Format: DD-MM-YYYY)
+Logs[i][1]: Time (Format: HH:MM)
+Logs[i][2]: Status
+Logs[i][3]: Message
+Requirements
+You need to write a function that performs the following:
+Filter: Return only the logs where the status is either "error" or "critical".
+Sort: Sort the filtered logs by date first and then arrival time in ascending order.
+Constraint 1: Do not use Datetime modules or libraries. You must handle the time comparison manually (likely by parsing the strings).
+Constraint 2: Stable Sort. You must preserve the original input order for logs that have the exact same arrival time.
+Return Type
+List<List<string>>
