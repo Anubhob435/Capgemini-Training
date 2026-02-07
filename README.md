@@ -163,3 +163,8 @@
 ### Day 23 (Friday)
 - Mock Test
 
+## 07.02.2026
+### Day 24 (Saturday)
+- Discussion of Mock question solutions
+- Dp and Recursion revised
+- Weekly programs Test
