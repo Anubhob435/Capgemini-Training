@@ -168,3 +168,8 @@
 - Discussion of Mock question solutions
 - Dp and Recursion revised
 - Weekly programs Test
+
+## 09.02.2026
+### Day 25 (Monday)
+- Self practice 
+- meeting with Capgemini people 
