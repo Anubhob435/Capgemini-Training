@@ -173,3 +173,7 @@
 ### Day 25 (Monday)
 - Self practice 
 - meeting with Capgemini people 
+
+## 10.02.2026
+### Day 26 (Tuesday)
+- Introduction to DB, DBMS, RDBMS
