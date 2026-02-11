@@ -177,3 +177,7 @@
 ## 10.02.2026
 ### Day 26 (Tuesday)
 - Introduction to DB, DBMS, RDBMS
+
+## 11.02.2026
+## Day 27 (Wednesday)
+- English and SoftSkill
