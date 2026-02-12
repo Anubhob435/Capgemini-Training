@@ -179,5 +179,11 @@
 - Introduction to DB, DBMS, RDBMS
 
 ## 11.02.2026
-## Day 27 (Wednesday)
+### Day 27 (Wednesday)
 - English and SoftSkill
+
+## 12.02.2026
+### Day 28 (Thursday)
+- SQL continued
+- DDL,DML, DCL, TCL
+- Types
