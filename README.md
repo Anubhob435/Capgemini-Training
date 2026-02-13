@@ -187,3 +187,8 @@
 - SQL continued
 - DDL,DML, DCL, TCL
 - Types
+
+## 13.02.2026
+### Day 29 (Friday)
+- Where, Groupby, Having
+- Joints
