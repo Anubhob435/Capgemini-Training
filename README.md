@@ -192,3 +192,9 @@
 ### Day 29 (Friday)
 - Where, Groupby, Having
 - Joints
+
+## 14.02.2026
+### Day 30 (Saturday)
+- Inner join, Natural Join, Outer join
+- Triggers
+- Weekly Test on SQL

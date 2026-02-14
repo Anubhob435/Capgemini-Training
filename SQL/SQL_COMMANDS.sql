@@ -88,31 +88,29 @@ HAVING MAX(sal) < 1500 OR MAX(sal) > 2500;
 
 -- ORDERBY
 
-/*
+
 SELECT ename, job, sal FROM emp
 ORDER BY job;
-*/
+
 
 -- SELECT table_name FROM user_tables;
 
-/*
+
 SELECT e.ename, e.job, d.dname, d.deptno
 FROM emp e
 CROSS JOIN dept d;
-*/
+
 
 -- SELECT * FROM EMP, DEPT WHERE EMP.DEPTNO = DEPT.DEPTNO;
 
-/*
+
 SELECT e.ename, d.dname, e.JOB
 FROM emp e
 INNER JOIN dept d ON e.deptno = d.deptno
 -- query to display ename job deptname is the employee is working as analyst
  AND e.job = 'ANALYST';
 
- */
-
-
+ 
  -- Query to display ename salary deptname if the employee name if the emp is working in the department of accounting
 SELECT e.ename, e.sal, d.dname
 FROM emp e
