@@ -198,3 +198,8 @@
 - Inner join, Natural Join, Outer join
 - Triggers
 - Weekly Test on SQL
+
+## 15.02.2026
+### Day 31 (Monday)
+- DSA revision
+- Codechef and Hackerrank
