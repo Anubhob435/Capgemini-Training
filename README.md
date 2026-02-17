@@ -199,7 +199,12 @@
 - Triggers
 - Weekly Test on SQL
 
-## 15.02.2026
+## 16.02.2026
 ### Day 31 (Monday)
 - DSA revision
 - Codechef and Hackerrank
+
+## 17.02.2026
+### Day 32 (Tuesday)
+- revisoon of binary search, heaps, priority queue
+- advance JAVA concepts 
