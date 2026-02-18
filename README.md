@@ -208,3 +208,8 @@
 ### Day 32 (Tuesday)
 - revisoon of binary search, heaps, priority queue
 - advance JAVA concepts 
+
+## 18.02.2026
+### Day 33 (Wednesday)
+- generic class
+- lambda expressions
