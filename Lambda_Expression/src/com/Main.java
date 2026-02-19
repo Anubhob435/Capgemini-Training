@@ -1,4 +1,4 @@
-package com;
+package Lambda_Expression.src.com;
 
 public class Main {
 	public static void main(String[] args) {
@@ -16,3 +16,5 @@ public class Main {
 		demo.sample(55);
 	}
 }
+// Stream doesnot store any data
+// Sources can be collections, Arrays, Files, generator Functions

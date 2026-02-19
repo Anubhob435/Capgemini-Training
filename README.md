@@ -213,3 +213,10 @@
 ### Day 33 (Wednesday)
 - generic class
 - lambda expressions
+
+## 19.02.2026
+### Day 34 (Thursday)
+- Stream API
+- more on lambda expressions
+- comperator
+- threads started

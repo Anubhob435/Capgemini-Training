@@ -1,4 +1,4 @@
-package com;
+package Lambda_Expression.src.com;
 
 public class DemoImpl implements Demo{
 	
