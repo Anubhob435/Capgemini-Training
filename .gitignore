@@ -5,3 +5,4 @@ out/
 .project
 /.metadata/
 *.png
+src/FileHandelling/Folder

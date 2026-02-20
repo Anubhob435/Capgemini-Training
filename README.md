@@ -220,3 +220,9 @@
 - more on lambda expressions
 - comperator
 - threads started
+
+## 20.02.2026
+### Day 35 (Friday)
+- Threads continued
+- synchronization
+- file handelling started
