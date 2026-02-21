@@ -226,3 +226,9 @@
 - Threads continued
 - synchronization
 - file handelling started
+
+## 21.02.2026
+### Day 36 (Saturday)
+- 3 problems on top brains
+- 72 questions on Virtual Judge
+- Weekly test on DSA and Java
