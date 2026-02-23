@@ -232,3 +232,8 @@
 - 3 problems on top brains
 - 72 questions on Virtual Judge
 - Weekly test on DSA and Java
+
+## 23.02.2026
+### Day 37 (Monday)
+- Self practice on DSA and Java
+- M1 test on hackerrank
