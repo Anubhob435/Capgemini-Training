@@ -237,3 +237,16 @@
 ### Day 37 (Monday)
 - Self practice on DSA and Java
 - M1 test on hackerrank
+
+## 24.02.2026
+### Day 38 (Tuesday)
+- Strating J unit testing
+- Maven
+- JUnit testing
+    - parameterized testing
+    - non parameterized testing
+- Input handelling in JUnit testing
+
+### Syllabus
+- Testing and Types of Testing
+    - Alpha ,beta , black box whitebox , etc
