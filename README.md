@@ -247,6 +247,11 @@
     - non parameterized testing
 - Input handelling in JUnit testing
 
-### Syllabus
-- Testing and Types of Testing
-    - Alpha ,beta , black box whitebox , etc
+    ### Syllabus
+    - Testing and Types of Testing
+        - Alpha ,beta , black box whitebox , etc
+
+## 25.02.2026
+### Day 39 (Wednesday)
+- English Softskills and Communication
+
