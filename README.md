@@ -255,3 +255,8 @@
 ### Day 39 (Wednesday)
 - English Softskills and Communication
 
+## 26.02.2026
+### Day 40 (Thursday)
+- JDBC
+- Mysql connection
+- CRUD operations using JDBC
