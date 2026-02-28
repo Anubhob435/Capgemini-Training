@@ -260,3 +260,7 @@
 - JDBC
 - Mysql connection
 - CRUD operations using JDBC
+
+## 27.02.2026
+### Day 41 (Friday)
+- TaskDAD, TaskDTO, TaskDAO
