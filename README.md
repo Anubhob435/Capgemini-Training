@@ -264,3 +264,9 @@
 ## 27.02.2026
 ### Day 41 (Friday)
 - TaskDAD, TaskDTO, TaskDAO
+
+## 28.02.2026
+### Day 42 (Saturday)
+- Weekly test on Java and SQL
+- 2 coding problems and 20 mcq Movk
+- 4 coding problems and 20 mcq final
