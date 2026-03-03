@@ -270,3 +270,8 @@
 - Weekly test on Java and SQL
 - 2 coding problems and 20 mcq Movk
 - 4 coding problems and 20 mcq final
+
+## 02.03.2026
+### Day 43 (Monday)
+- many comment lines addeded on what to do next
+- many to many transactions 
