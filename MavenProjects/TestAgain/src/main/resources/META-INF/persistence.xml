@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence" version="3.0">
+
+    <persistence-unit name="taskPU">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+        <class>org.example.Task</class>
+        <class>org.example.User</class>
+
+        <properties>
+            <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/tasks"/>
+            <property name="jakarta.persistence.jdbc.user" value="root"/>
+            <property name="jakarta.persistence.jdbc.password" value="admin"/>
+
+            <!-- Hibernate Configuration -->
+            <property name="hibernate.hbm2ddl.auto"
+                      value="update"/>
+            <property name="hibernate.show_sql"
+                      value="true"/>
+            <property name="hibernate.format_sql"
+                      value="true"/>
+        </properties>
+
+    </persistence-unit>
+</persistence>
+
+        <!--persistence.xml>unit>
+        EntityManager > EntityManager > DataBase -->
+        <!--update / create /validate / none-->
+        <!--1. read persistence.xml-->
+        <!--load provider-->
+        <!--connect to db-->
+        <!--register entities-->
+        <!--prepare meta data-->
+        <!--create persistence context factory-->
+
+
+<!-- Entity Manager Methods
+persist / remove / merge / find / getReference / detach / contains / refresh / clear / close
+-->
+
+
+<!-- Container vs Application Managed Entity Manager -->

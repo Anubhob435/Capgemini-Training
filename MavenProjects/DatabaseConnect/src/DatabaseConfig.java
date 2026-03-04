@@ -1,0 +1,10 @@
+import java.sql.*;
+
+import java.util.*;
+
+public class DatabaseConfig {
+    public static Connection getConnection() throws SQLException, ClassNotFoundException{
+        Class.forName("com.mysql.cj.jdbc.Driver");
+        return DriverManager.getConnection("jdbc:mysql://localhost:3306/tasks", "root", "admin");
+    }
+}
