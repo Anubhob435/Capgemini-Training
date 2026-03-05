@@ -275,3 +275,9 @@
 ### Day 43 (Monday)
 - many comment lines addeded on what to do next
 - many to many transactions 
+
+## 05.03.2026
+### Day 44 (Thursday)
+- hybernate framework
+- JDBC basics
+- Entity and table mapping and relationship mapping
