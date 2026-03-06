@@ -281,3 +281,10 @@
 - hybernate framework
 - JDBC basics
 - Entity and table mapping and relationship mapping
+
+## 06.03.2026
+### Day 45 (Friday)
+- software development life cycle
+- waterfall model 
+- agile model
+
