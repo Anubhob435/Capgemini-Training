@@ -288,3 +288,8 @@
 - waterfall model 
 - agile model
 
+## 07.03.2026
+### Day 46 (Saturday)
+- Genrative Ai
+- Version control system
+- git and github
