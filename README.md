@@ -293,3 +293,4 @@
 - Genrative Ai
 - Version control system
 - git and github
+- jerkins
