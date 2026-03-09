@@ -294,3 +294,9 @@
 - Version control system
 - git and github
 - jerkins
+
+## 09.03.2026
+### Day 47 (Monday)
+- git local and remote repository connection
+- git commands
+- jerkins automated deployment 
