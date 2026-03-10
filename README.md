@@ -300,3 +300,8 @@
 - git local and remote repository connection
 - git commands
 - jerkins automated deployment 
+
+### 10.03.2026
+### Day 48 (Tuesday)
+- English Softskills and Communication
+- Email Writing
