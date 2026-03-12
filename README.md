@@ -305,3 +305,9 @@
 ### Day 48 (Tuesday)
 - English Softskills and Communication
 - Email Writing
+
+## 11.03.2026
+### Day 49 (Wednesday)
+- Spring Framework
+- Spring Core
+- Spring Boot
