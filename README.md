@@ -311,3 +311,9 @@
 - Spring Framework
 - Spring Core
 - Spring Boot
+
+## 12.03.2026
+### Day 50 (Thursday)
+- Spring Template in Eclipse.
+- setting up spring boot project in eclipse.
+- apache server
