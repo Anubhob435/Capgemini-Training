@@ -317,3 +317,9 @@
 - Spring Template in Eclipse.
 - setting up spring boot project in eclipse.
 - apache server
+
+## 13.03.2026
+### Day 51 (Friday)
+- Spring MVC
+- Apache Tomcat Server
+- Deployment of spring boot application on apache server
