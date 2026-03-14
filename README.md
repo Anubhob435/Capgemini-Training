@@ -323,3 +323,8 @@
 - Spring MVC
 - Apache Tomcat Server
 - Deployment of spring boot application on apache server
+
+## 14.03.2026
+### Day 52 (Saturday)
+- M1 exam Reassessment
+- Spring server Logging workflow improved

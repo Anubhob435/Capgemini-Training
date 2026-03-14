@@ -1,43 +1,34 @@
 package src.Main;
 
+import java.util.*;
+
 public class Main2 {
-	   static final Object lock = new Object();
 
-	    public static void main(String[] args) throws Exception {
+	public static long getMinimumIncrement(List<Integer> list) {
 
-	        Thread worker = new Thread(
-	        		() -> {
-	        			try {
-	        				System.out.println("Worker : Started");
-	        				Thread.sleep(2000);
-	        				synchronized (lock) {
-	        					System.out.println("Worker: going to waiting state");
-	        					lock.wait();
-	        				}
-	        				System.out.println("Worker: Resumed and finishing");
-	        			}catch(InterruptedException e){
-	        				throw new RuntimeException(e);
-	        			}
-	        		}
-	        		);
-	        
-	        System.out.println("State after Creation : " + worker.getState());
-	        worker.start();
-	        Thread.sleep(100);
-	        System.out.println("State after starting : " + worker.getState());
-	        
-	        Thread.sleep(500);
-	        System.out.println("State during sleep: " + worker.getState());
-	        
-	        Thread.sleep(2000);
-	        System.out.println("State during wait() : " + worker.getState());
-	        
-	        synchronized (lock) {
-	        	lock.notify();
+	    long moves = 0;
+
+	    for (int i = 1; i < list.size(); i++) {
+
+	        if (list.get(i) < list.get(i - 1)) {
+
+	            int diff = list.get(i - 1) - list.get(i);
+	            moves += diff;
+
+	            list.set(i, list.get(i - 1));
 	        }
-	        
-	        worker.join();
-	        System.out.println("State after complete : " + worker.getState());
-	        
 	    }
+
+	    return moves;
+	}
+
+    public static void main(String[] args) {
+
+        // Sample input from the question
+        List<Integer> arr = Arrays.asList(4, 1, 3, 5, 6, 5);
+
+        long result = getMinimumIncrement(arr);
+
+        System.out.println("Minimum increment required: " + result);
+    }
 }
