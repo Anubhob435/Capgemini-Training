@@ -328,3 +328,8 @@
 ### Day 52 (Saturday)
 - M1 exam Reassessment
 - Spring server Logging workflow improved
+
+## 16.03.2026
+### Day 53 (Monday)
+- Spring with Mysql
+- create login, registration, forgot password page using spring and mysql
