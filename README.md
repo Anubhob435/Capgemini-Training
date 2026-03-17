@@ -333,3 +333,7 @@
 ### Day 53 (Monday)
 - Spring with Mysql
 - create login, registration, forgot password page using spring and mysql
+
+## 17.03.2026
+### Day 54 (Tuesday)
+- Employee management system using spring and mysql
