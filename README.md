@@ -337,3 +337,8 @@
 ## 17.03.2026
 ### Day 54 (Tuesday)
 - Employee management system using spring and mysql
+
+## 18.03.2026
+### Day 55 (Wednesday)
+- English Softskills and Communication
+- Mock interview session
