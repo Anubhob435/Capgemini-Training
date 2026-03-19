@@ -24,6 +24,11 @@ public class EmployeeServices {
         return emp.orElse(null);
     }
 
+    public Employee getEmployeeByEmpId(int empId) {
+        Optional<Employee> emp = employeeRepository.findByEmpId(empId);
+        return emp.orElse(null);
+    }
+
     public Employee saveEmployee(Employee employee) {
         return employeeRepository.save(employee);
     }

@@ -13,6 +13,17 @@
         <a href="/">Back to Home</a>
     </p>
 
+    <form action="/employee/search" method="get">
+        <label for="empId">Search by Employee No:</label>
+        <input type="number" id="empId" name="empId" required>
+        <button type="submit">Search</button>
+        <a href="/employee/all">Reset</a>
+    </form>
+
+    <c:if test="${not empty searchMessage}">
+        <p>${searchMessage}</p>
+    </c:if>
+
     <c:choose>
         <c:when test="${empty employees}">
             <p>No employees found.</p>

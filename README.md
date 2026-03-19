@@ -342,3 +342,9 @@
 ### Day 55 (Wednesday)
 - English Softskills and Communication
 - Mock interview session
+
+## 19.03.2026
+### Day 56 (Thursday)
+- Spring Rest API
+- Postman testing
+- Getall, create, search, delete, update employes using api
